@@ -5,7 +5,7 @@ Liquidsoap script for creating Http Live Streams (HLS) with a fallback when the 
 
 ## Why do you need a fallback?
 
-When your main stream stops (e.g. because of an network error) all your clients will be disconnected and have to restart the stream. With a fallback in place the player of your users keeps streaming the fallback content until you can broadcast again. So no interruption for your audience :)
+When your main stream stops (e.g. because of a network error) all your clients will be disconnected and have to restart the stream. With a fallback in place the player of your users keeps streaming the fallback content until you can broadcast again. So no interruption for your audience :)
 
 ## Usage
 
