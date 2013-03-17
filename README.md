@@ -15,8 +15,12 @@ When your main stream stops (e.g. because of a network error) all your clients w
 
 |Params| Description |
 | :------------- |:-------------| 
-| stream      | stream url |
-| no. of segments      | (optional, defaults to 0) - Number of segments to keep. one segment is 10 seconds, so if you want to have an relive of one minute you need to pass 6 (6 * 10 seconds = 1 minute). When no parameter is given or less than 1 the relive won't have a time limit.      |
-| fallback playlist | (optional, defaults to silence) - local playlist of files or other streams      |
-|timeout | (optinal, default to 0) - Timeout in minutes. After this time the relive will stop.     |
+| **stream**      | stream url |
+| **no. of segments**      | **(optional, defaults to 0)** - Number of segments to keep. one segment is 10 seconds, so if you want to have an relive of one minute you need to pass 6 (6 * 10 seconds = 1 minute). When no parameter is given or less than 1 the relive won't have a time limit.      |
+| **fallback playlist** | **(optional, defaults to silence)** - local playlist of files or other streams      |
+| **timeout** | **(optinal, default to 0)** - Timeout in minutes. After this time the relive will stop.     |
 
+## Requirements
+ * liquidsoap
+ * ffmpeg
+ * m3u8-segmenter (for resume support you have to use my fork)
