@@ -24,3 +24,7 @@ When your main stream stops (e.g. because of a network error) all your clients w
  * liquidsoap
  * ffmpeg
  * m3u8-segmenter (for resume support you have to use my fork)
+
+
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=dans&url=https://github.com/d-a-n/liquidsoap-hls&title=liquidsoap-hls&language=&tags=github&category=software)
